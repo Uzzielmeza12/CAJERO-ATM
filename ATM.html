@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque&family=Gabarito&family=Poppins&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ATM.css">
+    <title>Simulador de Cajero ATM</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buen dia, Bienvenido al Cajero Automatico</h1>
+
+        <div id="section 1">
+          <h2>Inicio de Sesión</h2>
+          <input type="text" id="username" placeholder="Usuario" required>
+          <input type="password" id="password" placeholder="Contraseña" required>
+          <button onclick="login()">Ingresar</button>
+          <p id="login-error"></p>
+        </div>
+
+        <div id="section 2" style="display: none;">
+          <h2>Opciones:</h2>
+          <button onclick="consultarSaldo()">Consultar Saldo</button>
+          <button onclick="ingresarMonto()">Ingresar Monto</button>
+          <button onclick="retirarMonto()">Retirar Monto</button>
+          <p id="action-message"></p>
+        </div>
+
+      </div>
+    
+    
+
+    <script src="./ATM.js"></script>
+</body>
+</html>

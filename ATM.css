@@ -1,0 +1,62 @@
+
+body{
+  background-image: radial-gradient(circle at 48.68% 47.71%, #ccc9c1 0, #b0ad9c 25%, #8d8c70 50%, #686d47 75%, #4a5529 100%);
+}
+
+
+.container {
+
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
+  h1, h2 {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  p{
+    color: rgb(6, 13, 76);
+    font-size: 25px;
+  }
+
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #f4e5e5;
+    font-family: monospace;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  
+  }
+
+  button:hover{
+    background-color: #0056b3;
+  }
+
+  button:active{
+    background-color: #031330;
+  }
+  
+  #error-message {
+    color: red;
+    font-weight: bold;
+  }
